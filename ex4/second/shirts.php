@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-    <head>    
+    <head>   
+        <link rel="stylesheet" href="css/style.css">  
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
         <title>Shirts</title>
     </head>
     <body>
