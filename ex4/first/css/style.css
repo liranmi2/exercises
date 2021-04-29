@@ -1,0 +1,53 @@
+body{
+    font-family: "Ubuntu Mono";
+    font-size: 200%;
+}
+
+form {
+    margin-top: 5%;
+    margin-left: 5%;    
+}
+
+.col-form-label{
+    font-weight: lighter;
+}
+
+#range{
+    width: 25%;
+}
+#range-value{
+    font-size: 70%;
+    text-align: center;
+}
+
+#coffee{
+    text-align: center;
+}
+
+.form-check-label{
+    font-weight: lighter;
+    font-size: 80%;
+}
+
+#address-label{
+    margin-top: 1%;
+}
+
+textarea{
+    resize: none;
+}
+
+#interests{
+    margin-top: 2%;
+}
+
+#submit{
+    font-size: 120%;
+    width: 80%;
+}
+
+#submit-div{
+    margin-top: 5%;
+}
+
+

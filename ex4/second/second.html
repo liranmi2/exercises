@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+        <meta charset="UTF-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <title>Second Form</title>
+        
+    </head>
+
+    <body>        
+        <h1>Shirt Selector</h1>
+        <form id="form" action="shirts.php" method="GET">
+<!-- 2 -->  <div class="form-group row">
+                <label for="size" class="col-sm-2 col-form-label">Size</label>
+                <div class="col-sm-3">
+                    <select class="form-control" name="size" id="size" required>
+                        <option disabled selected value>Choose size...</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>    
+            </div>
+            </div>
+<!-- 3 -->  <div class="form-group row">
+                <label for="color" class="col-sm-2 col-form-label">Color</label>
+                <div class="col-sm-3">
+                    <select class="form-control" name="color" id="color" required>
+                        <option disabled selected value>Choose color...</option>
+                        <option>white</option>
+                        <option>black</option>
+                        <option>blue</option>
+                        <option>red</option>
+                        <option>green</option>
+                    </select>    
+                </div>
+            </div>
+            <div id="submit-div" class="form-group row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <button type="submit" class="btn btn-primary" id="submit" value="Send form">Submit</button>
+                </div>
+            </div>
+       </form>
+    </body>
+</html>

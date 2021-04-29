@@ -1,0 +1,27 @@
+body{
+    font-family: "Ubuntu Mono";
+    font-size: 200%;
+    margin-left: 5%;
+}
+h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+form{
+    margin-top: 2%;
+}
+
+.col-form-label{
+    font-weight: lighter;
+}
+
+#submit{
+    font-size: 120%;
+    width: 80%;
+}
+
+#submit-div{
+    margin-top: 5%;
+}
+
+

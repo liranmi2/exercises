@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section  {
+    display: block;
+}
+
+body {
+    font-family: Lato;
+    background-color: #E5E5E5;
+    margin-left: 125px;
+}
+
+#logo {
+    background-image: url("../images/star.png");
+    height: 88px;
+    width: 88px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#logo span {
+    color: #222222;
+    font-size: 60px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
